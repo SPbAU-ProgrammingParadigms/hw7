@@ -25,5 +25,7 @@ foldl' f z l = undefined
 concat' :: [a] -> [a] -> [a]
 concat' = undefined
 -- 8. quickSort' возвращает его отсортированный список (0,5)
+-- quickSort' должен быть реализован через алгоритм QuickSort
+-- (выбор pivot может быть любым)
 quickSort' :: Ord a => [a] -> [a]
 quickSort' = undefined
